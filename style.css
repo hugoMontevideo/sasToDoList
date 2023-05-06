@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');  /*import du style de la police*/
+*{                                                      /*style de tout les elements avant de commencer, on applique le style*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 10px;
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.full_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 90%;
+    padding: 10px 5px;
+    height: 39px;
+    border: 1px solid #b3b2b2;
+    outline: 0;
+    border-radius: 6px 0 0 6px ;
+}
+
+button {
+    width: 10%;
+    font-size: 20px;
+    height: 39px;
+    border: 0;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+}
+.paragraphe_style {
+ margin: 10px 0;
+ padding: 10px 0;
+ padding-left: 5px;
+ border-radius: 6px;
+ color: #fff;
+ background-color: #699df0;
+ word-break: break-all;
+ cursor: pointer;
+ animation: anime 0.5s linear;                  /* l'aniamtion est appelle ici elle dure 0.5s et elle est animé de facon linear  */
+}
+.paragraphe_style:last-child {
+margin-bottom: 0;
+}
+@keyframes anime {                              /* Metode d'animation en Css on la creer puis on l'appelle ailleur */
+    from{
+        transform: translateY(50px);
+    }
+}
+.paragraph_click{
+    background-color: rgb(247, 118, 118);
+    text-decoration: line-through;
+}
+.paragraph_none{
+    display: none;
+}

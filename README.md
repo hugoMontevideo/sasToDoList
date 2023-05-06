@@ -12,9 +12,10 @@ Hugo
 
 ## Technologies
 HTML/CSS - JS 
+Stockage dans le LocalStorage du navigateur
 
 ## Voir Online
-
+https://todo-grece-inside-at.hugo-machado.com/
 
 ## License
 Simplon Sud 2023

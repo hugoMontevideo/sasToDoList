@@ -11,7 +11,7 @@ Lancer l'index.html
 Hugo
 
 ## Technologies
-HTML/CSS - JS 
+HTML/CSS - JS - 
 Stockage dans le LocalStorage du navigateur
 
 ## Voir Online
